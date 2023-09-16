@@ -1,0 +1,257 @@
+body{
+    width: 100%;;
+    height: 100%;
+    background-color: black;
+    margin: 0 ;
+}
+#about
+{
+    margin-top: 0;
+    width: 25%;
+    height: 100vh;
+    background-color: rgb(28, 32, 29);
+    max-height: 100vh;
+    float: left;
+}
+#home
+{
+    margin-top: 0;
+    width:75%;
+    background-color:rgb(24, 24, 18);
+    height: 100vh;
+    float: left;
+}
+#profileImage
+{
+    width: 45%;
+    height: 23%;
+    margin-left: 27.5%;
+    margin-top: 10vh;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color:rgb(199,199,17);
+}
+.links{
+    margin-top: 8%;
+    width: 100%;
+}
+.btns1{
+    display: flex;
+    color: white;
+    background-color: rgb(24,24,18);
+    border: none;
+    width: 80%;
+    height: 7vh;
+    padding-left: 35%;
+    padding-right: 0%;
+    padding-top: 5%;
+    margin-left: 10%;
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight:900;
+
+}
+.btns2
+{
+    display: flex;
+    color: white;
+    background-color: rgb(24,24,18);
+    border: none;
+    width: 80%;
+    height: 7vh;
+    padding-left: 30%;
+    padding-right: 0%;
+    padding-top: 5%;
+    margin-left: 10%;
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight:900;
+}
+.btns1:hover{
+    background-color: rgb(199,199,17);
+    color: black;
+    font-weight:900;
+}
+.btns2:hover{
+    background-color: rgb(199,199,17);
+    color: black;
+    font-weight:900;
+}
+.icons-links
+{
+    width: 80%;
+    height: 7vh;
+    margin-left: 16%;
+    margin-top: 8%;
+}
+#linkedin{
+    width:7%;
+    height:3vh;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
+}
+#insta{
+    width:7%;
+    height:3vh;
+}
+#github{
+    width:7%;
+    height:3vh;
+}
+.icons:hover
+{
+    cursor: pointer;
+
+}
+.icons{
+    margin-left: 11.66%;
+    aspect-ratio: 3/2;
+    border-color: rgb(28, 32, 29);
+    
+}
+#linkedin
+{
+   
+   mix-blend-mode: color-burn;
+}
+#github{
+    
+    background-color: rgb(28, 32, 29);
+}
+#nameinAbout{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#name{
+    margin-left: 32%;
+}
+#student{
+    margin-left: 15%;
+}
+a{
+    text-decoration: none;
+}
+/*About me css */
+.contactHeading
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 42%;
+}
+.emailcontact{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 15%;
+    margin-left: 5%;
+    float: left;
+    font-size: 25px;
+    border: 1px groove rgb(35, 35, 27);
+    box-shadow:2px 2px 12px 12px rgb(17, 17, 16);
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    
+}
+#email-icon
+{
+    width:40px;
+    height: 40px;
+    aspect-ratio: 3/2;
+    margin-top: 3%;
+    background-color: transparent;
+    mix-blend-mode: color-dodge;
+    padding-left: 0;
+}
+#location{
+    width: 35px;
+    height: 35px;
+    aspect-ratio: 3/2;
+    margin-left: 4px;
+}
+#phone{
+    width: 26px;
+    height: 26px;
+    aspect-ratio: 3/2;
+    background-color: transparent;
+    mix-blend-mode: color-dodge;
+    margin-left: 12px;
+}
+#phonenmbr{
+    margin-top: 1%;
+}
+#currentloca{
+    margin-top: 1%;
+}
+#emailid{
+    margin-top: 1%;
+    padding-left: 0px;
+    padding-bottom: 1px;
+    
+}
+.contactInputbox{
+    float: right;
+    display: grid;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: 1px groove rgb(35, 35, 27);
+    box-shadow:2px 2px 12px 12px rgb(17, 17, 16);
+    padding-left: 50px;
+    padding-right: 53px;
+    padding-bottom: 50px;
+    padding-top: 51px;
+    
+}
+input{
+    width: 300px;
+    height: 50px;
+    background-color:  rgb(28, 32, 29);
+    border: 1px groove rgb(199,199,17);
+    padding-left: 5px;
+    color: white;
+    font-size: 15px;
+}
+::placeholder{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#send{
+    width:70px;
+    height: 35px;
+    border:none;
+}
+#send:hover{
+    cursor: pointer;
+}
+input:nth-last-child(3)
+{
+    height: 100px;
+}
+#sendbtn{
+    border: 1px groove rgb(199,199,17);
+    width: 85px; 
+}
+#linkedin{
+    background-color: transparent;
+            mix-blend-mode: color-dodge;   
+}
+#github{
+    mix-blend-mode: color-dodge;
+    background-color: transparent;   
+    height: 26px;
+    width: 40px;
+}
+#contactinfo{
+    padding-left: 75px;
+    height: 28px;
+    margin-left: 1px;
+}
+.contactInputbox:hover{
+    box-shadow:2px 2px 17px 17px rgb(17, 17, 16);
+    background-color: rgb(21, 21, 17);
+}
+.emailcontact:hover{
+    box-shadow:2px 2px 17px 17px rgb(17, 17, 16);
+    background-color: rgb(21, 21, 17);   
+}
