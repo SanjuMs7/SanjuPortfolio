@@ -186,7 +186,7 @@ a{
     width: 40px;
 }
 .html:hover{
-    box-shadow:2px 2px 17px 17px rgb(17, 17, 16);
+    box-shadow:2px 2px 17px 17px rgb(16, 16, 15);
     background-color: rgb(21, 21, 17);
     
 }
