@@ -146,9 +146,9 @@ a{
     margin-left: 5%;
     float: left;
     font-size: 25px;
-    border: 1px groove rgb(35, 35, 27);
+    border: 1px groove rgb(80, 80, 77);
     box-shadow:2px 2px 20px 2px rgb(16, 16, 15);
-    border-radius: 45px;
+    border-radius: 65px;
     padding-left: 30px;
     padding-top: 15px;
     padding-bottom: 30px;
@@ -198,8 +198,8 @@ a{
     display: grid;
     margin-right: 10%;
     margin-top: 10%;
-    border: 1px groove rgb(35, 35, 27);
-    border-radius: 50px;
+    border: 1px groove rgb(80, 80, 77);
+    border-radius: 55px;
     box-shadow:2px 2px 20px 2px rgb(16, 16, 15);
     padding-left: 50px;
     padding-right: 53px;
