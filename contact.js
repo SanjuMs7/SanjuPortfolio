@@ -1,3 +1,4 @@
+//contact javascript
 let sendBtn=document.querySelector('#send');
 let name_field= document.querySelector('#fullname');
 let email_field= document.querySelector('#email_field');
