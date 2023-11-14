@@ -3,16 +3,18 @@
 <head>
     <link rel="stylesheet" href="contact.css" type="text/css">
     <link rel="shortcut icon" href="images/icons/android-chrome-512x512.png" type="x-icon"> 
+    <span id="metaTag-refresh"></span>  
+    <!--'used it using js' <meta http-equiv="refresh" content="30">-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SanjuPortfolio</title>
+    <title>Portfolio</title>
 </head>
 <body>
     <div class="outer">
 
         <div id="about">
            <div class="profile-photo">
-            <img src="images/sanju profile-image-2.jpg" id="profileImage">
+            <img src="images/profilephoto/sanju profile-image-2.jpg" id="profileImage">
         </div>
         <div id="name">
             <h2 style="color: white;" id="nameinAbout">SANJU<span style="color:rgb(199, 199, 17) ;"> M S</span></h2>
@@ -54,6 +56,7 @@
             <br><br>
             <img src="images/icons/phone-new1.png" id="phone">&nbsp;&nbsp;<span id="phonenmbr"> 9846179663</span>
            </div> 
+           <form action="" id="form" onsubmit="return false">
            <div class="contactInputbox">
             <div id="messageinfo" style="font-size: 20px;"><p>Message<span style="color: rgb(199, 199, 17);">  ME</span></p></div>
             
@@ -61,9 +64,10 @@
             <input type="text" placeholder="E-mail" id="email_field" class="inputBox"><br>
             <input type="text" placeholder="Purpose" id="message_field" class="inputBox"><br>
             <div id="sendbtn">
-                <button id="send" title="send it">Send</button>
+                <button id="send" title="send it" type="submit">Send</button>
             </div>
            </div>
+        </form>
         </div>
 
     </div>
