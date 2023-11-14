@@ -1,4 +1,3 @@
-//contact javascript
 let sendBtn=document.querySelector('#send');
 let name_field= document.querySelector('#fullname');
 let email_field= document.querySelector('#email_field');
@@ -31,11 +30,13 @@ sendBtn.addEventListener('click',()=>{
         document.querySelector('#send').innerHTML="Sent !";
         setTimeout(()=>{
 		        document.querySelector('#send').innerHTML="Send";
-              },4000);
+                document.querySelector('#metaTag-refresh').innerHTML=`<meta http-equiv="refresh" content="0">`
+              },5000);
                 
                  inputBox.forEach((value)=>{
                      value.style.borderColor="green";
                  })
+                 
     }
     else{
         document.querySelector('#send').innerHTML="Enter the details !";
